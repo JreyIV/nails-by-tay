@@ -89,7 +89,7 @@ const Nav = () => {
             <motion.li key={link.label} whileHover={{ scale: 1.25 }}>
               <motion.a
                 href={link.href}
-                className="leading-normal text-lg text-white"
+                className="leading-normal text-lg font-noto text-white"
                 whileHover={{ color: "#F1E9FF" }}
               >
                 {link.label}
@@ -112,20 +112,20 @@ const Nav = () => {
               initial="initial"
               animate="animate"
               exit="exit"
-              className="fixed left-0 top-0 w-full h-screen origin-top bg-brand-green p-10 z-50"
+              className="fixed left-0 top-0 w-full h-screen origin-top z-50"
             >
               <div className="flex h-full flex-col">
                 <div className="flex justify-between">
                   <h1 className="text-okine text-lg text-off-white">Joseph.</h1>
                   <motion.p
                     className="cursor-pointer text-md text-off-white"
-                    whileHover={{ scale: 1.3, color: "#14746F" }}
+                    whileHover={{ scale: 1.3, color: "#B3A3D6" }}
                     onClick={toggleMenu}
                   >
                     Close
                   </motion.p>
                 </div>
-                <div className="flex flex-col h-full justify-center items-center gap-4">
+                <div className="flex flex-col h-full bg-brand-lavender-light justify-center items-center gap-4">
                   <ul>
                     {NavLinks.map((link) => (
                       <div key={link.label}>
@@ -136,7 +136,7 @@ const Nav = () => {
                           <motion.a
                             href={link.href}
                             className="font-okine text-6xl leading-normal text-off-white uppercase"
-                            whileHover={{ color: "#14746F" }}
+                            whileHover={{ color: "#B3A3D6" }}
                             onClick={closeMenu}
                           >
                             {link.label}

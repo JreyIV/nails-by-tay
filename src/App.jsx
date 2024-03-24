@@ -5,14 +5,14 @@ export default function App() {
   return (
     <main className="relative">
       <Nav />
-      <section className="padding">
+      <section className="">
         <Hero />
       </section>
-      <section className="padding">
-        <About />
-      </section>
-      <section className="padding">
+      <section className="">
         <Services />
+      </section>
+      <section className="">
+        <About />
       </section>
       <section className="padding">
         <Gallery />
