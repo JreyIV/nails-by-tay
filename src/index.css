@@ -73,3 +73,9 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+@media (max-width: 768px) {
+  .break-inside-avoid:hover {
+    transform: none !important;
+  }
+}

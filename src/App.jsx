@@ -14,7 +14,7 @@ export default function App() {
       <section className="">
         <About />
       </section>
-      <section className="padding">
+      <section className="overflow-hidden">
         <Gallery />
       </section>
       <section className="padding">
