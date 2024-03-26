@@ -9,7 +9,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${nails3})` }}
     >
       <div className="w-full bg-black bg-opacity-50 h-full items-center text-center justify-center flex flex-col">
-        <h1 className="text-brand-lavender-light font-wedding text-6xl max-md:text-8xl">
+        <h1 className="text-brand-lavender-light font-wedding text-8xl max-md:text-6xl">
           Nails By Tay
         </h1>
         <h1 className="text-6xl max-md:text-3xl md:text-4xl text-white font-noto mb-5 px-2">
