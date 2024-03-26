@@ -6,7 +6,7 @@ import {
   useScroll,
 } from "framer-motion";
 import { NavLinks } from "../constants";
-import { hamburger } from "../assets/icons";
+import { hamburger, instagram_clear } from "../assets/icons";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -81,9 +81,29 @@ const Nav = () => {
         }}
         animate={isSmallScreen ? "visible" : isNavHidden ? "hidden" : "visible"}
       >
-        <a href="/" className="absolute top-5 left-20 flex">
-          <h1>Nails By Tay</h1>
-        </a>
+        {!isSmallScreen && (
+          <a href="/" className="absolute top-5 left-20 flex">
+            <h1>Nails By Tay</h1>
+          </a>
+        )}
+
+        {!isSmallScreen && (
+          <a
+            href="https://www.instagram.com/_paintedbytay_/"
+            target="_blank"
+            className="absolute top-5 right-20 flex "
+          >
+            <motion.img
+              src={instagram_clear}
+              alt="instagram"
+              width={25}
+              height={25}
+              className="lg:block"
+              whileHover={{ scale: 1.2 }}
+            />
+          </a>
+        )}
+
         <ul className="flex-1 flex justify-center items-center gap-20 max-lg:hidden">
           {NavLinks.map((link) => (
             <motion.li key={link.label} whileHover={{ scale: 1.25 }}>
@@ -92,7 +112,7 @@ const Nav = () => {
                 className="leading-normal text-lg font-noto text-white"
                 whileHover={{ color: "#F1E9FF" }}
               >
-                {link.label}
+                <motion.div whileTap={{ scale: 0.5 }}>{link.label}</motion.div>
               </motion.a>
             </motion.li>
           ))}
@@ -114,18 +134,24 @@ const Nav = () => {
               exit="exit"
               className="fixed left-0 top-0 w-full h-screen origin-top z-50"
             >
-              <div className="flex h-full flex-col">
-                <div className="flex justify-between">
-                  <h1 className="text-okine text-lg text-off-white">Joseph.</h1>
+              <div className="relative flex h-full flex-col">
+                <div className="absolute top-0 left-0">
+                  <a href="/" className="flex items-center p-10">
+                    <h1 className="font-noto text-lg text-off-white">
+                      Nails By Tay
+                    </h1>
+                  </a>
+                </div>
+                <div className="absolute top-0 right-0">
                   <motion.p
-                    className="cursor-pointer text-md text-off-white"
-                    whileHover={{ scale: 1.3, color: "#B3A3D6" }}
+                    className="cursor-pointer text-md text-off-white p-10"
+                    whileHover={{ scale: 1.3, color: "#F1E9FF" }}
                     onClick={toggleMenu}
                   >
                     Close
                   </motion.p>
                 </div>
-                <div className="flex flex-col h-full bg-brand-lavender-light justify-center items-center gap-4">
+                <div className="flex flex-col h-full bg-brand-lavender justify-center items-center gap-4">
                   <ul>
                     {NavLinks.map((link) => (
                       <div key={link.label}>
@@ -136,7 +162,7 @@ const Nav = () => {
                           <motion.a
                             href={link.href}
                             className="font-okine text-6xl leading-normal text-off-white uppercase"
-                            whileHover={{ color: "#B3A3D6" }}
+                            whileHover={{ color: "#F1E9FF" }}
                             onClick={closeMenu}
                           >
                             {link.label}

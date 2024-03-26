@@ -14,13 +14,13 @@ export default function App() {
       <section className="">
         <About />
       </section>
-      <section className="overflow-hidden">
+      <section className="">
         <Gallery />
       </section>
-      <section className="padding">
+      <section className="">
         <Contact />
       </section>
-      <section className="padding">
+      <section className="">
         <Footer />
       </section>
     </main>
