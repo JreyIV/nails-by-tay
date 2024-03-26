@@ -7,6 +7,7 @@ import {
 } from "framer-motion";
 import { NavLinks } from "../constants";
 import { hamburger, instagram_clear } from "../assets/icons";
+import { logoVect } from "../assets/icons";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,7 +71,7 @@ const Nav = () => {
   return (
     <header className="py-8 absolute z-50 w-full">
       <motion.nav
-        className="fixed w-[100%] top-0 justify-between bg-brand-lavender items-center p-5 max-lg:bg-opacity-0 text-white"
+        className="fixed flex w-[100%] top-0 justify-between bg-brand-lavender  items-center p-5 max-lg:bg-opacity-0 text-white"
         variants={{
           visible: { y: 0 },
           hidden: { y: "-100%" },
@@ -82,14 +83,19 @@ const Nav = () => {
         animate={isSmallScreen ? "visible" : isNavHidden ? "hidden" : "visible"}
       >
         {!isSmallScreen && (
-          <a href="/" className="absolute top-5 left-20 flex">
-            <h1>Nails By Tay</h1>
+          <a href="/" className=" top-5 left-20 flex">
+            <img
+              src={logoVect}
+              alt="logo"
+              className="h-24 absolute top-[-14px]"
+            />
+            <h1 className="absolute left-24 top-5">Nails By Tay</h1>
           </a>
         )}
 
         {!isSmallScreen && (
           <a
-            href="https://www.instagram.com/_paintedbytay_/"
+            href="https://www.instagram.com/_nails.by.tay_/"
             target="_blank"
             className="absolute top-5 right-20 flex "
           >

@@ -53,7 +53,7 @@ const Contact = () => {
           *The appointment will take place in my apartment located near the
           Lincoln Park area. More details when you contact me!
         </p>
-        <a href="https://www.instagram.com/_paintedbytay_/" target="_blank">
+        <a href="https://www.instagram.com/_nails.by.tay_/" target="_blank">
           <motion.img
             src={instagram}
             alt="instagram"

@@ -1,12 +1,15 @@
 import { motion } from "framer-motion";
 import { NavLinks } from "../constants";
-import { instagram_clear } from "../assets/icons";
+import { instagram_clear, logoVect } from "../assets/icons";
 
 const Footer = () => {
   return (
     <section className="bg-wrong-green flex flex-col items-center justify-center">
       <div className=" p-12 w-11/12 max: flex items-center relative border-b border-black">
-        <h1 className="font-noto text-xl absolute">Nails By Tay</h1>
+        <div className="flex items-center">
+          <img src={logoVect} alt="logo" className="h-24 absolute" />
+          <h1 className="font-noto text-xl absolute left-32">Nails By Tay</h1>
+        </div>
         <ul className="flex-1 flex justify-center items-center gap-20 max-lg:hidden">
           {NavLinks.map((link) => (
             <motion.li key={link.label} whileHover={{ scale: 1.25 }}>
@@ -26,7 +29,7 @@ const Footer = () => {
           ))}
         </ul>
         <a
-          href="https://www.instagram.com/_paintedbytay_/"
+          href="https://www.instagram.com/_nails.by.tay_/"
           target="_blank"
           className="absolute right-20 flex "
         >

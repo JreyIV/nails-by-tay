@@ -19,12 +19,18 @@ const Hero = () => {
           <p className="font-wix text-lg max-md:text-lg  text-white pb-5 px-2">
             Experience the long-lasting beauty of Gel X and Gel Polish manicures
           </p>
-          <motion.button
-            className="border font-noto text-white p-2"
-            whileHover={{ scale: 1.25, backgroundColor: "#B3A3D6" }}
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScijWYskuwZzK9evW0t6ehV9-v8P-RC4M33I01xPYObh8KoxA/viewform?usp=sf_link"
+            target="_blank"
           >
-            Book Appointment
-          </motion.button>
+            <motion.button
+              className="border font-noto text-white p-2"
+              whileHover={{ scale: 1.25, backgroundColor: "#B3A3D6" }}
+            >
+              Book Appointment
+            </motion.button>
+          </a>
         </div>
       </div>
     </section>

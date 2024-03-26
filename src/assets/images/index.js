@@ -9,6 +9,7 @@ import nails7_1 from "./nails7_1.jpg";
 import nails7_2 from "./nails7_2.jpg";
 import nails8 from "./nails8.jpg";
 import about from "./about.png";
+import logo from "./logo.png";
 
 export {
   nails1,
@@ -22,4 +23,5 @@ export {
   nails7_2,
   nails8,
   about,
+  logo,
 };

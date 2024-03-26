@@ -35,16 +35,21 @@ const About = () => {
             manicure reflects my dedication to quality and creativity.
           </p>
           <div className="pt-5">
-            <motion.button
-              className="border bg-brand-lavender font-noto text-white p-2"
-              whileHover={{
-                scale: 1.25,
-                backgroundColor: "#F1E9FF",
-                color: "#74665b",
-              }}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScijWYskuwZzK9evW0t6ehV9-v8P-RC4M33I01xPYObh8KoxA/viewform?usp=sf_link"
+              target="_blank"
             >
-              Book Appointment
-            </motion.button>
+              <motion.button
+                className="border bg-brand-lavender font-noto text-white p-2"
+                whileHover={{
+                  scale: 1.25,
+                  backgroundColor: "#F1E9FF",
+                  color: "#74665b",
+                }}
+              >
+                Book Appointment
+              </motion.button>
+            </a>
           </div>
         </div>
       </div>
