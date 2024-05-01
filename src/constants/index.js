@@ -9,6 +9,8 @@ import {
   //   nails7_1,
   //   nails7_2,
   nails8,
+  nails9,
+  nails10,
 } from "../assets/images";
 
 export const NavLinks = [
@@ -27,4 +29,6 @@ export const Set = [
   { src: nails6 },
   { src: nails7, price: "50" },
   { src: nails8 },
+  { src: nails9 },
+  { src: nails10 },
 ];
