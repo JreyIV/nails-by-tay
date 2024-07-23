@@ -1,21 +1,21 @@
 const Services = () => {
   return (
     <section id="Services" className="bg-brand-beige">
-      <div className=" justify-center items-center lg:p-10 pt-10">
+      <div className=" justify-center items-center lg:p-20 py-20">
         <h1 className="text-center text-4xl font-wedding text-brand-lavender ">
           My Services
         </h1>
-        <div className="flex pt-5 max-lg:flex-col max-lg:px-5 max-lg:gap-5">
+        <div className="flex pt-10 max-lg:flex-col max-lg:px-5 max-lg:gap-5">
           <div className="lg:w-1/2">
             <div className=" max-lg:px-2 px-5 text-center">
               <h1 className="text-center font-noto text-3xl text-brand-brown">
                 Basic
               </h1>
-              <p className="font-wix text-xl text-brand-lavender">
+              <p className="font-wix text-xl text-brand-lavender pt-5">
                 Pricing: the price of your basic nails will vary based on the
                 design but will range between $25 to $30
               </p>
-              <div className="flex flex-col items-center text-lg">
+              <div className="flex flex-col items-center text-lg pt-5">
                 <p className="p-5 font-wix text-brand-brown">
                   Basic designs include:
                 </p>
@@ -35,11 +35,11 @@ const Services = () => {
             <h1 className="text-center font-noto text-3xl text-brand-brown">
               Intricate
             </h1>
-            <p className="font-wix text-xl text-brand-lavender">
+            <p className="font-wix text-xl text-brand-lavender pt-5">
               Pricing: the price of your intricate nails will vary based on the
               design but will range between $35 to $50
             </p>
-            <div className="flex flex-col items-center text-lg">
+            <div className="flex flex-col items-center text-lg pt-5">
               <p className="p-5 font-wix text-brand-brown">
                 Intricate designs include:
               </p>
@@ -51,7 +51,7 @@ const Services = () => {
                 <li>gems</li>
               </ul>
             </div>
-            <p className="pt-7 font-wix text-xl text-brand-lavender italic">
+            <p className="pt-12 font-wix text-xl text-brand-lavender italic">
               *The more complicated the set, the higher the price. Caps at $50
             </p>
           </div>
