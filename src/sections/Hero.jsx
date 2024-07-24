@@ -12,9 +12,9 @@ const Hero = () => {
         <h1 className="text-brand-lavender-light font-wedding text-8xl max-md:text-6xl text-center">
           Nails By Tay
         </h1>
-        <h1 className="text-6xl max-md:text-3xl md:text-4xl text-white font-noto mb-5 px-2">
+        <p className="text-6xl max-md:text-3xl md:text-4xl text-white font-noto mb-5 px-2">
           Transform Your Nails with Affordable Gel X
-        </h1>
+        </p>
         <div>
           <p className="font-wix text-lg max-md:text-lg  text-white pb-5 px-2">
             Experience the long-lasting beauty of Gel X and Gel Polish manicures
