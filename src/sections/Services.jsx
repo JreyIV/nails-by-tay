@@ -2,15 +2,15 @@ const Services = () => {
   return (
     <section id="Services" className="bg-brand-beige">
       <div className=" justify-center items-center lg:p-20 py-20">
-        <h1 className="text-center text-4xl font-wedding text-brand-lavender ">
+        <h2 className="text-center text-4xl font-wedding text-brand-lavender ">
           My Services
-        </h1>
+        </h2>
         <div className="flex pt-10 max-lg:flex-col max-lg:px-5 max-lg:gap-5">
           <div className="lg:w-1/2">
             <div className=" max-lg:px-2 px-5 text-center">
-              <h1 className="text-center font-noto text-3xl text-brand-brown">
+              <h3 className="text-center font-noto text-3xl text-brand-brown">
                 Basic
-              </h1>
+              </h3>
               <p className="font-wix text-xl text-brand-lavender pt-5">
                 Pricing: the price of your basic nails will vary based on the
                 design but will range between $25 to $30
@@ -32,9 +32,9 @@ const Services = () => {
             </div>
           </div>
           <div className="max-lg:border-t max-lg:py-10 lg:border-l border-[#c2b7a6] lg:w-1/2 text-center px-5">
-            <h1 className="text-center font-noto text-3xl text-brand-brown">
+            <h3 className="text-center font-noto text-3xl text-brand-brown">
               Intricate
-            </h1>
+            </h3>
             <p className="font-wix text-xl text-brand-lavender pt-5">
               Pricing: the price of your intricate nails will vary based on the
               design but will range between $35 to $50

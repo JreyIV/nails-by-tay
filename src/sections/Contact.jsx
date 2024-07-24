@@ -33,9 +33,9 @@ const Contact = () => {
   return (
     <section id="Contact" className="bg-brand-beige-dark flex max-lg:flex-col">
       <div className=" lg:w-1/2 lg:p-20 p-10">
-        <h1 className="font-wedding text-4xl text-brand-lavender">
+        <h2 className="font-wedding text-4xl text-brand-lavender">
           Get in Touch
-        </h1>
+        </h2>
         <p className="font-noto text-brand-brown pt-2">
           Have a question or want to book an appointment?
         </p>

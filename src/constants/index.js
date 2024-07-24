@@ -11,6 +11,8 @@ import {
   nails8,
   nails9,
   nails10,
+  nails11,
+  nails12,
 } from "../assets/images";
 
 export const NavLinks = [
@@ -22,13 +24,15 @@ export const NavLinks = [
 
 export const Set = [
   { src: nails1, price: "25" },
-  { src: nails2 },
-  { src: nails3 },
-  { src: nails4 },
+  { src: nails2, price: "35" },
+  { src: nails3, price: "30" },
+  { src: nails4, price: "40" },
   { src: nails5, price: "35" },
-  { src: nails6 },
+  { src: nails6, price: "30" },
   { src: nails7, price: "50" },
-  { src: nails8 },
-  { src: nails9 },
-  { src: nails10 },
+  { src: nails8, price: "35" },
+  { src: nails9, price: "25" },
+  { src: nails10, price: "30" },
+  { src: nails11, price: "40" },
+  { src: nails12, price: "45" },
 ];

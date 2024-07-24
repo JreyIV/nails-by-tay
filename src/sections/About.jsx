@@ -15,9 +15,9 @@ const About = () => {
           }}
         />
         <div className="lg:w-1/2 p-5 xl:p-20 text-start">
-          <h1 className="justify-start font-wedding text-4xl text-brand-lavender">
+          <h2 className="justify-start font-wedding text-4xl text-brand-lavender">
             About Me
-          </h1>
+          </h2>
           <p className="font-noto text-4xl">Welcome to Nails By Tay!</p>
           <p className="font-wix text-xl pt-10 leading-normal">
             If you are looking for a beautiful new set of nails for an

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className=" p-12 w-11/12 max: flex items-center relative border-b border-black">
         <div className="flex items-center">
           <img src={logoVect} alt="logo" className="h-24 absolute" />
-          <h1 className="font-noto text-xl absolute left-32">Nails By Tay</h1>
+          <h2 className="font-noto text-xl absolute left-32">Nails By Tay</h2>
         </div>
         <ul className="flex-1 flex justify-center items-center gap-20 max-lg:hidden">
           {NavLinks.map((link) => (
