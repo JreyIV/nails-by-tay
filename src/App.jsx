@@ -1,15 +1,24 @@
 import Nav from "./components/Nav";
 import { Hero, About, Services, Gallery, Contact, Footer } from "./sections";
-import ReactGA from "react-ga4";
-import { useEffect } from "react";
+import TagManager from "react-gtm-module";
+
+// import ReactGA from "react-ga4";
+// import { useEffect } from "react";
 
 // Google Analytics
-ReactGA.initialize("G-QM9H35BB9J");
+
+// ReactGA.initialize("G-QM9H35BB9J");
+
+const tagManagerArgs = {
+  gtmId: "GTM-WQV3TH4D",
+};
+
+TagManager.initialize(tagManagerArgs);
 
 export default function App() {
-  useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
-  }, []);
+  // useEffect(() => {
+  //   ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  // }, []);
 
   return (
     <main className="relative">
