@@ -40,7 +40,7 @@ const About = () => {
               target="_blank"
             >
               <motion.button
-                className="border bg-brand-lavender font-noto text-white p-2"
+                className="border bg-brand-lavender font-noto text-white p-2 about-book-btn"
                 whileHover={{
                   scale: 1.25,
                   backgroundColor: "#F1E9FF",

@@ -25,7 +25,7 @@ const Hero = () => {
             target="_blank"
           >
             <motion.button
-              className="border font-noto text-white p-2"
+              className="border font-noto text-white p-2 hero-book-btn"
               whileHover={{ scale: 1.25, backgroundColor: "#B3A3D6" }}
             >
               Book Appointment
