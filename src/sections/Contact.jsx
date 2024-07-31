@@ -68,6 +68,7 @@ const Contact = () => {
         {isSuccess && <EmailConfirm />}
         <form
           ref={form}
+          id="contact-form"
           onSubmit={sendEmail}
           className="grid grid-cols-2 gap-x-5 gap-y-5 items-center justify-between p-4 text-brand-brown"
         >

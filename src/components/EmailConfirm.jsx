@@ -2,7 +2,7 @@ import { confirm } from "../assets/icons";
 
 const EmailConfirm = () => {
   return (
-    <div className="flex border border-green-800 ">
+    <div className="flex border border-green-800 email_success">
       <span className="border border-green-800 bg-green-800 flex px-4">
         <img src={confirm} alt="confirm" width={30} />
       </span>
