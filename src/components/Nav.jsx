@@ -89,7 +89,9 @@ const Nav = () => {
               alt="logo"
               className="h-24 absolute top-[-14px]"
             />
-            <h1 className="absolute left-24 top-5">Nails By Tay</h1>
+            <span className="absolute left-24 top-5 font-wedding text-2xl">
+              Nails By Tay
+            </span>
           </a>
         )}
 
@@ -143,9 +145,9 @@ const Nav = () => {
               <div className="relative flex h-full flex-col">
                 <div className="absolute top-0 left-0">
                   <a href="/" className="flex items-center p-10">
-                    <h1 className="font-noto text-lg text-off-white">
+                    <p className="font-wedding text-3xl text-off-white">
                       Nails By Tay
-                    </h1>
+                    </p>
                   </a>
                 </div>
                 <div className="absolute top-0 right-0">
