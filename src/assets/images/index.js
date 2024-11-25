@@ -12,6 +12,12 @@ import nails9 from "./nails9.jpg";
 import nails10 from "./nails10.jpg";
 import nails11 from "./nails11.jpg";
 import nails12 from "./nails12.jpg";
+import nails13 from "./nails13.jpg";
+import nails14 from "./nails14.jpg";
+import nails15 from "./nails15.jpg";
+import nails16 from "./nails16.jpg";
+import nails17 from "./nails17.jpg";
+import nails18 from "./nails18.jpg";
 import about from "./about.png";
 import logo from "./logo.png";
 
@@ -30,6 +36,12 @@ export {
   nails10,
   nails11,
   nails12,
+  nails13,
+  nails14,
+  nails15,
+  nails16,
+  nails17,
+  nails18,
   about,
   logo,
 };

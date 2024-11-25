@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { nails3 } from "../assets/images";
+import { nails13 } from "../assets/images";
 
 const Hero = () => {
   return (
     <section
       id="home"
       className="bg-cover bg-center h-screen flex text-center items-center"
-      style={{ backgroundImage: `url(${nails3})` }}
+      style={{ backgroundImage: `url(${nails13})` }}
     >
       <div className="w-full bg-black bg-opacity-50 h-full items-center text-center justify-center flex flex-col">
         <h1 className="text-brand-lavender-light font-wedding text-8xl max-md:text-6xl text-center">
